@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "grow-rpg-banner-video-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/growRpgBannerVideo/GrowRpgBannerVideoWebPart.js",
+          "manifest": "./src/webparts/growRpgBannerVideo/GrowRpgBannerVideoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GrowRpgBannerVideoWebPartStrings": "lib/webparts/growRpgBannerVideo/loc/{locale}.js"
+  }
+}

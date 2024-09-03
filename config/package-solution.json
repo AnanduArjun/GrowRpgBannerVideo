@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "grow-rpg-banner-video-client-side-solution",
+    "id": "808bc2fe-a5c8-468a-8da8-9e2486f4e85e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "grow-rpg-banner-video description"
+      },
+      "longDescription": {
+        "default": "grow-rpg-banner-video description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "grow-rpg-banner-video Feature",
+        "description": "The feature that activates elements of the grow-rpg-banner-video solution.",
+        "id": "eca3e2f3-97d0-438d-ad72-3546a8972e95",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/grow-rpg-banner-video.sppkg"
+  }
+}
